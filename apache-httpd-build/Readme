@@ -1,0 +1,13 @@
+Readme doc.
+
+Ref help url:http://httpd.apache.org/docs/current/
+
+1.start up httpd
+/mnt/cdrom/apache-httpd-build/httpd-2.4.23-build/bin/apachectl -f /mnt/cdrom/apache-httpd-build/httpd-2.4.23-build/conf/httpd.conf
+
+2.stop httpd
+apachectl -k stop 
+
+3.restart
+apachectl -k restart
+
